@@ -1,0 +1,6 @@
+[template]
+src="config.sql.tmpl"
+dest="/usr/share/mssql/rancher-seed/config.sql"
+keys= [
+  "/self/service/metadata/seed",
+]
