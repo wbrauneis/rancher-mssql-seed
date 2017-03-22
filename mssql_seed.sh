@@ -5,6 +5,6 @@ while [ ! -f /usr/share/mssql/rancher-seed/config.sql ]; do
     sleep 1
 done
 
-/opt/mssql/bin/sqlservr.sh
+/usr/share/mssql/rancher-seed/provision.sh &
 
-sqlcmd -U sa -P $SA_PASSWORD /usr/share/mssql/rancher-seed/config.sql
+/opt/mssql/bin/sqlservr.sh
