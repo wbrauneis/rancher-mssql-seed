@@ -7,4 +7,4 @@ done
 
 /usr/share/mssql/rancher-seed/provision.sh &
 
-/opt/mssql/bin/sqlservr.sh
+/opt/mssql/bin/sqlservr
